@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navlogo {
+    width: 290px;
+    height: 60px;
+}
+
+.nav-section {
+    margin: auto;
+
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.banner-content{
+width: 700px;
+
+}
+
+.lgnbtn{
+width: 100px;
+padding-left: 32px;
+
+}
+
+.lgin{
+    width: 400px;
+    margin-left: 100px;
+
+  
+}
+
+.banner-sec{
+    background-color: #F7F5F9;
+    
+}
+
+.sclbtn{
+margin-top: 32px;
+
+}
+
+
+.inp{
+    width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+}
+
+
+.cont{
+    width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;  
+    border-radius: 5px;
+    
+}
+
+
+.signIn{
+padding-left: 250px;
+
+}
+
+.services{
+    padding: 100px;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+
+.content-part{
+    border: 1px solid rgb(197, 197, 233);
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.audio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+/* responsive part */
+
+@media screen and (min-width: 600px) and (max-width: 922px)  {
+    .banner {
+      display: grid;
+   grid-template-columns: repeat(1,1fr);
+    }
+
+    .lgin{
+        margin-top: 40px;
+    }
+  }
+
+
+
+@media screen and (min-width: 600px) and (max-width: 922px)  {
+    .services-container {
+      display: grid;
+   grid-template-columns: repeat(1,1fr);
+    }
+
+   
+  }
+@media screen and (min-width: 600px) and (max-width: 922px)  {
+    .audio {
+      display: grid;
+   grid-template-columns: repeat(1,1fr);
+   text-align: center;
+    }
+  .audios{
+
+padding-right: 500px;
+}
+
+  }
+
+
+
+  @media screen and (min-width: 600px) and (max-width: 922px)  {
+    .footer{
+    display: grid;
+   grid-template-columns: repeat(1,1fr);
+   
+    }
+
+   
+  }
+
+
+  @media screen and (min-width: 600px) and (max-width: 922px)  {
+    .testomonial{
+width: 400px;
+    }
+
+   
+  }
+
+
+  @media screen and (min-width: 600px) and (max-width: 922px)  {
+    .hobby .hobby-content{
+   width: 360px;
+   margin: auto;
+   margin-left: 0;
+    }
+    .hobby{
+        padding: 50px;
+    }
+
+    .hobbyimg{
+       padding-right: 500px;
+    }
+   
+  }
